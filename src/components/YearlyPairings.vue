@@ -23,8 +23,8 @@ import Pairing from "./Pairing.vue";
 const startYear = 2015;
 const date = new Date();
 const year: number = date.getFullYear();
-const options: array = [];
-for (let i = startYear; i <= year + 15; i++) {
+const options: number[] = [];
+for (let i = startYear; i <= year + 1; i++) {
   options.push(i);
 }
 const families = [
@@ -61,3 +61,19 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+select {
+  border: 0;
+  background: transparent;
+  font-size: 3vw;
+  margin: 0 auto 2rem;
+  display: block;
+}
+select:active,
+select:hover,
+select:focus-visible {
+  border: 0;
+  outline: 0;
+}
+</style>

@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td>{{ giver }}</td>
-    <td>=></td>
+    <td>&rarr;</td>
     <td>{{ receiver }}</td>
   </tr>
 </template>
@@ -16,3 +16,12 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+td:first-child {
+  text-align: right;
+}
+td:nth-child(2) {
+  padding: 0 2rem;
+}
+</style>

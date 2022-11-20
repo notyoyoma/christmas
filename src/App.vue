@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>Naselli Family christmas gift rotation</h1>
+    <h1>Naselli family christmas gift rotation</h1>
   </header>
 
   <main>
@@ -12,4 +12,13 @@
 import YearlyPairings from "./components/YearlyPairings.vue";
 </script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  font-size: 7vw;
+}
+
+main {
+  margin: auto;
+  font-size: 3vw;
+}
+</style>
