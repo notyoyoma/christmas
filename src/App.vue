@@ -19,6 +19,6 @@ h1 {
 
 main {
   margin: auto;
-  font-size: 3vw;
+  font-size: 4.5vw;
 }
 </style>

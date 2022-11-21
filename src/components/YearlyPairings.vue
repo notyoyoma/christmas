@@ -66,8 +66,8 @@ export default defineComponent({
 select {
   border: 0;
   background: transparent;
-  font-size: 3vw;
-  margin: 0 auto 2rem;
+  font-size: inherit;
+  margin: 1em auto;
   display: block;
 }
 select:active,

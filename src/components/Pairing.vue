@@ -22,6 +22,6 @@ td:first-child {
   text-align: right;
 }
 td:nth-child(2) {
-  padding: 0 2rem;
+  padding: 0 1vw;
 }
 </style>
